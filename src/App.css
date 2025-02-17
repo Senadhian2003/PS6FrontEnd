@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body {
+      @apply font-grotesque text-white;
+    }
+
+    .title{
+      @apply font-bayon text-xlg/tight font-normal;
+    }
+
+    .heading{
+      @apply font-bayon text-lg font-normal;
+    }
+
+    .content{
+      @apply font-grotesque text-md/maxTight font-normal;
+    }
+
+}
+
+
