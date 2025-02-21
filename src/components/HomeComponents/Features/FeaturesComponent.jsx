@@ -30,7 +30,7 @@ function FeaturesComponent() {
       {/* Features */}
 
       <div className="flex flex-col-reverse sm:flex-row space-x-8 p-6 sm:p-0 ">
-        <div className="features basis-2/3 flex flex-col justify-evenly space-y-10 ">
+        <div className=" basis-2/3 flex flex-col justify-evenly space-y-10 ">
         {/* <div
             className="feature1 pl-4 flex items-center h-[101px]  w-full border  border-darkBlue bg-gradient-to-r from-black via-20% via-lightBlue  via-darkBlue  to-black 
            shadow-defaultBlue transition-all duration-250  hover:shadow-glowBlue hover:scale-105

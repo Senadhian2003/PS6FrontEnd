@@ -14,7 +14,7 @@ function Featuresbar({heading,content, image, index, changeFeatureContent}) {
   return (
     <div onMouseEnter={openFeatureBarContent} onMouseLeave={closeFeatureBarContent}>
     <div
-    className={`feature1 pl-4 py-2 sm:py-8 flex flex-wrap sm:flex-nowrap items-center sm:h-[80px]  w-${6-index}/6 border min-w-fit  border-darkBlue bg-gradient-to-r from-black via-20% via-lightBlue  via-darkBlue  to-black 
+    className={` pl-4 py-2 sm:py-8 flex flex-wrap sm:flex-nowrap items-center sm:h-[80px]  w-${6-index}/6 border min-w-fit  border-darkBlue bg-gradient-to-r from-black via-20% via-lightBlue  via-darkBlue  to-black 
     shadow-defaultBlue transition-all duration-250  hover:shadow-glowBlue hover:scale-105
    `}
 
