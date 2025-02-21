@@ -37,7 +37,7 @@ function LandingScreen() {
           </div>
         </div>
 
-        <div className="flex min-w-96 min-h-96 md:max-h-xl md:max-w-xl 2xl:max-h-full 2xl:max-w-full flex-col justify-end">
+        <div className="flex md:min-w-96 md:min-h-96 md:max-h-xl md:max-w-xl 2xl:max-h-full 2xl:max-w-full flex-col justify-end">
           <img src={PS6Image} alt="" className=""  />
         </div>
       </div>

@@ -48,7 +48,7 @@ function GamesComponent() {
   return (
     <div className=" max-h-screen my-40">
       <div className=" flex justify-between">
-        <div className="relative min-h-[500px] min-w-dvh left-0 top-0">
+        <div className="relative min-h-[600px] min-w-dvh left-0 top-0">
           <img  key={currentImage.smallImage} // Important for React to recognize the change
      src={currentImage.smallImage}
      alt=""
@@ -85,7 +85,7 @@ function GamesComponent() {
 
 
        
-        <div className="relative min-h-[100px] min-w-dvh right-0 bottom-0 ">
+        <div className="relative min-h-[1000px] min-w-dvh right-0 bottom-0 ">
           <img src={currentImage.bigImage} alt="Big Image" className= {`w-full h-full object-right-bottom transition-all duration-300 ease-in-out transform object-contain ${
        animate ? "-translate-x-10 opacity-0" : "translate-x-0 opacity-100"
      }`} />
