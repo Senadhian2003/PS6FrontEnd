@@ -1,8 +1,8 @@
 import React from 'react'
-import FacebookCircled from "../../../assets/images/FacebookCircled.svg"
-import InstagramCircled from "../../../assets/images/InstagramCircled.svg"
-import XCircled from "../../../assets/images/XCircled.svg"
-import Youtube from "../../../assets/images/Youtube.svg"
+import FacebookCircled from "../../assets/images/FacebookCircled.svg"
+import InstagramCircled from "../../assets/images/InstagramCircled.svg"
+import XCircled from "../../assets/images/XCircled.svg"
+import Youtube from "../../assets/images/Youtube.svg"
 
 
 function FooterList({footerList, displaySocialMedia}) {
@@ -24,8 +24,8 @@ function FooterList({footerList, displaySocialMedia}) {
      }
 
         {
-            footerList.footerItems.map((footerItem)=>{
- return <p className='text-sm font-normal'> {footerItem} </p>
+            footerList.footerItems.map((footerItem, index)=>{
+ return <p key={index} className='text-sm font-normal'> {footerItem} </p>
             })
         }
 

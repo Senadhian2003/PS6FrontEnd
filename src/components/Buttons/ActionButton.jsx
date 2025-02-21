@@ -1,30 +1,33 @@
-import React from 'react'
+import React from "react";
 function ActionButton({ content, iconLight, iconDark }) {
-    return (
-
-
-        <div className="group flex relative max-w-md my-4">
-        <div className="relative flex items-center">
-         
-          <button className="border border-white text-sm font-normal group-hover:text-black group-hover:bg-white hover:font-medium transition-all delay-30 duration-300 ease-in-out  pt-1 pb-2  pl-7 pr-20">
-                   {content}
+  return (
+    <div className="group w-fit">
+      <div className="  w-fit border border-white justify-start flex space-x-6 items-center pt-1 py-2 px-8 group-hover:text-black group-hover:bg-white hover:font-medium transition-all delay-30 duration-300 ease-in-out">
+         {/* Invisible Clone to Maintain Size */}
+   
+    
+        <button className="scale-95 group-hover:scale-105 transition-transform duration-300 ease-in-out  text-sm font-medium     ">
+          {content}
         </button>
-        <div className="absolute right-5  ">
-            {/* <Search size={20} /> */}
-            <img src={iconLight} alt="" className='w-8 h-8 transition-opacity delay-30 duration-300 ease-in-out opacity-100 group-hover:opacity-0 group-hover:hidden' />
-         
-            {/* <Search size={20} /> */}
-            <img src={iconDark} alt="" className='w-8 h-8 hidden transition-opacity delay-30 duration-300 ease-in-out opacity-0 group-hover:opacity-100 group-hover:block ' />
-          </div>
+        <div className="scale-95 group-hover:scale-110 transition-transform duration-300 ease-in-out ">
+       
+          <img
+            src={iconLight}
+            alt=""
+            className="min-w-6 min-h-6 transition-opacity delay-30 duration-300 ease-in-out opacity-100 group-hover:opacity-0 group-hover:hidden"
+          />
+
         
+          <img
+            src={iconDark}
+            alt=""
+            className="min-w-6 min-h-6 hidden transition-opacity delay-30 duration-300 ease-in-out opacity-0 group-hover:opacity-100 group-hover:block "
+          />
         </div>
-        </div>
-
-
-
-
-
-    )
+      </div>
+      </div>
+  
+  );
 }
 
-export default ActionButton
+export default ActionButton;

@@ -3,15 +3,15 @@ import Navbar from "../Navbar/Navbar";
 import LandingScreen from "../HomeComponents/LandingScreen";
 import landingBackground from "../../assets/images/backgroundImage.svg";
 import ControllerComponent from "../HomeComponents/ControllerComponent";
-import FeaturesComponent from "../HomeComponents/FeaturesComponent";
-import GamesComponent from "../HomeComponents/GamesComponent";
-import Footer from "../HomeComponents/Footer/Footer";
+import FeaturesComponent from "../HomeComponents/Features/FeaturesComponent";
+import GamesComponent from "../HomeComponents/GamesComponent/GamesComponent";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
     <div className="bg-black overflow-x-hidden">
       <div
-        className="h-screen flex flex-col bg-cover bg-center px-28"
+        className="min-h-screen flex flex-col bg-cover bg-center px-8 lg:px-28"
         style={{ backgroundImage: `url(${landingBackground})` }}
       >
         {/* <img
